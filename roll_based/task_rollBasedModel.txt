@@ -1,0 +1,19 @@
+roll based model , login,signup
+
+index page :- login/signup
+signup role : user/admin
+email ,password , new password
+
+login :
+email ,password 
+
+on login (admin): home page -> video (controller) 
+on login (user): home page -> image 
+
+
+
+
+
+
+for user : image
+for admin : video 

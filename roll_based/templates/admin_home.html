@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Admin Home{% endblock %}
+{% block content %}
+<h2 class="mt-2 text-center">Admin Dashboard</h2>
+<div class="d-flex justify-content-center mt-4">
+
+    <video controls>
+        <source src="{{ url_for('static', filename='videos/7v.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+    <div class=" mt-3 text-center">
+        <a href="{{ url_for('static', filename='videos/7v.mp4') }}" class="btn btn-primary" download>Download Video</a>
+    </div>
+
+{% endblock %}
