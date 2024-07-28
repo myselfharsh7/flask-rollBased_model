@@ -29,6 +29,9 @@ A Flask-based web application that implements a role-based login system with use
 - MySQL database
 
 # project structure
+
+
+
 .
 ├── app.py                # Main application file
 ├── config.py             # Configuration file
@@ -47,3 +50,4 @@ A Flask-based web application that implements a role-based login system with use
 │   └── js/
 │       └── scripts.js    # Custom JavaScript
 └── README.md             # This README file
+# thnks
